@@ -16,9 +16,9 @@ namespace Kurs.Data.Mocks
             {
                 return new List<Theme>
                 {
-                    new Theme {name = "Blender 2.91", shortDescription = "Новая версия блендер", longDescription = "longDescription", img = "/img/2.91.jpg", level = _themsLevel.GetAllLevels.First() },
-                    new Theme {name = "Hard-Surface моделирование в блендер", shortDescription = "Создание твердых поверхностей", longDescription = "longDescription", img = "/img/hs.jpg", level = _themsLevel.GetAllLevels.First() },
-                    new Theme {name = "Blender 2.90", shortDescription = "Новая версия блендер", longDescription = "longDescription", img = "/img/2.90.jpg", level = _themsLevel.GetAllLevels.First() },
+                    new Theme {name = "Blender 2.91", shortDescription = "Новая версия Blender", longDescription = "longDescription", img = "/img/2.91.jpg", level = _themsLevel.GetAllLevels.First() },
+                    new Theme {name = "Hard-Surface моделирование в Blender", shortDescription = "Создание твердых поверхностей", longDescription = "longDescription", img = "/img/hardsrfc.jpg", level = _themsLevel.GetAllLevels.First() },
+                    new Theme {name = "Blender 2.90", shortDescription = "Новая версия Blender", longDescription = "longDescription", img = "/img/2.90.jpg", level = _themsLevel.GetAllLevels.First() },
                     new Theme {name = "Анимация в Blender 2.90", shortDescription = "Все об анимации для начинающих", longDescription = "longDescription", img = "/img/anim.jpg", level = _themsLevel.GetAllLevels.First() }
                 };
             }

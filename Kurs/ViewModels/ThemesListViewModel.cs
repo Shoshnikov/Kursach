@@ -12,5 +12,6 @@ namespace Kurs.ViewModels
 
         public string currentLevel { get; set; }
 
+        public int id;
     }
 }

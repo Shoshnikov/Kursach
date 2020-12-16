@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "5QrPCO0vKKzjoeSeBIsRfiycD5cxoTvz2x3Sd6NMMmNg7o1bhbCQX7XdltHN71V20upjmp+0ACZ4sN0Ignoaeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivans\\source\\repos\\Kurs\\Kurs\\Kurs.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Kursach\\Kurs\\Kurs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivans\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\ivans\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

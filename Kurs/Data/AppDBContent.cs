@@ -15,7 +15,6 @@ namespace Kurs.Data
         }
 
         public DbSet<Theme> Theme { get; set; }
-        public DbSet<Level> Level { get; set; }
 
     }
 }

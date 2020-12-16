@@ -19,7 +19,7 @@ using Kurs.ViewModels;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a2dcf886370e8a523797954573d2072a2e1ebca6", @"/Views/Home/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6646ac9678f6a773cb02aef408a4dfe132646a91", @"/Views/Home/Index.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"41ddb86636f022a439f79acfd811498f530b2281", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
@@ -79,7 +79,7 @@ WriteAttributeValue("", 253, theme.name, 253, 11, false);
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</p>\r\n                <p><a class=\"btn btn-warning\" href=\"#\">Читать</a></p>\r\n            </div>\r\n");
+            WriteLiteral("</p>\r\n                <p><a class=\"btn btn-warning\" href=\"Theme/Index\">Читать</a></p>\r\n            </div>\r\n");
 #nullable restore
 #line 16 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\Home\Index.cshtml"
         }

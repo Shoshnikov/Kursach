@@ -79,7 +79,7 @@ WriteAttributeValue("", 273, theme.name, 273, 11, false);
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</p>\r\n                <p><a class=\"btn btn-warning\" href=\"#\">Читать</a></p>\r\n            </div>\r\n");
+            WriteLiteral("</p>\r\n                <p><a class=\"btn btn-warning\" href=\"/Theme/\">Читать</a></p>\r\n            </div>\r\n");
 #nullable restore
 #line 16 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\Themes\List.cshtml"
         }

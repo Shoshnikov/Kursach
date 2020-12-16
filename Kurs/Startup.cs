@@ -36,6 +36,11 @@ namespace Kurs
             {
                 mvcOtions.EnableEndpointRouting = false;
             });
+
+            //services.AddControllersWithViews(mvcOtions =>
+            //{
+            //    mvcOtions.EnableEndpointRouting = false;
+            //});
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

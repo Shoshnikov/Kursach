@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            background-image: url("/img/background.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+            color: #f9fafb !important;
+        }
+
+        .fw-light {
+            font-weight: 600 !important;
+            color: white;
+        }
+
+        .text-muted {
+            color: #ffffff !important;
+        }
+
+    </style>
+
 </head>
 <body>
 
@@ -14,10 +33,10 @@
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
                         <h4 class="text-white">О нас</h4>
-                        <p class="text-muted">Мы представляем сообщество энтузиастов ... учить людей графике и параллельно совершенствоваться и так далее</p>
+                        <p class="text-muted">Мы представляем сообщество энтузиастов, увлеченных 3D-моделированием. Мы готовы поделиться с Вами нашим опытом и последними новостями о Blender.</p>
                     </div>
                     <div class="col-sm-4 offset-md-1 py-4">
-                        <h4 class="text-white">Как с нами связаться</h4>
+                        <h4 class="text-white">Найти наши работы и связаться с нами можно тут:</h4>
                         <ul class="list-unstyled">
                             <li><a href="https://www.instagram.com/bergwolfe_team/?hl=ru" class="text-white" target="_blank">Наш Instagram</a></li>
                             <li><a href="https://vk.com/bergwolfe" class="text-white" target="_blank">Наш Vk</a></li>
@@ -39,22 +58,51 @@
         </div>
     </header>
 
+    <hr />
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Немного о самом Blender</h1>
+                <p class="lead text-muted">
+                    Blender — профессиональное cвободное и открытое программное обеспечение для создания трёхмерной компьютерной графики,
+                    включающее в себя средства моделирования, скульптинга, анимации, симуляции, рендеринга,
+                    постобработки и монтажа видео со звуком, компоновки с помощью «узлов» (Node Compositing),
+                    а также создания 2D-анимаций. В настоящее время пользуется большой популярностью среди бесплатных 3D-редакторов
+                    в связи с его быстрым стабильным развитием и технической поддержкой.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr />
+
     <div>
         @RenderBody()
     </div>
+
+    <hr />
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Album example</h1>
+                <p class="lead text-muted">
+                    Something short and leading about the collection below—its contents, the
+                    creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
+                    entirely.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr />
+
 
     <footer class="text-muted py-5">
         <div class="container">
             <p class="float-end mb-1">
                 <a href="#">Back to top</a>
             </p>
-            <p class="mb-1">Подпишитесь на наш инстаграм! Там мы регулярно выкладываем интересные работы</p>
-            <a href="https://www.instagram.com/bergwolfe_team/?hl=ru" class="soc" target="_blank">
-                <img src="~/img/insta.jpg" id="bx_3218110189_26851">
-            </a>
         </div>
     </footer>
-        
+
 
     <script src="~/js/bootstrap.min.js"></script>
 </body>

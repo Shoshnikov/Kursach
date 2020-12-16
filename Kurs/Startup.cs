@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Kurs.Data;
 using Microsoft.EntityFrameworkCore;
+using Kurs.Data.Repository;
 
 namespace Kurs
 {
@@ -26,7 +27,7 @@ namespace Kurs
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IThemes, MockThemes>();
+            services.AddTransient<IThemes, ThemeRepository>();
             services.AddTransient<IThemsLevel, MockLevel>();
             services.AddMvc();
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_conf.GetConnectionString("DefaultConnection")) );
@@ -49,6 +50,8 @@ namespace Kurs
             //        template: "{controller=Home}/{action=Index}/{id?}");
             //});
             app.UseMvcWithDefaultRoute();
+
+            DBObjects.Initial(app);
         }
     }
 }

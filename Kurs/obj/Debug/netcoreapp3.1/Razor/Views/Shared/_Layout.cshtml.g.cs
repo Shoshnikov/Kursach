@@ -13,7 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\_ViewImports.cshtml"
+#line 1 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\_ViewImports.cshtml"
 using Kurs.ViewModels;
 
 #line default
@@ -57,7 +57,7 @@ using Kurs.ViewModels;
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "193664d20b48c1fc4ed518ff2e85a76c38c3705a4615", async() => {
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
 #nullable restore
-#line 6 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\Shared\_Layout.cshtml"
+#line 6 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\Shared\_Layout.cshtml"
       Write(ViewBag.Title);
 
 #line default

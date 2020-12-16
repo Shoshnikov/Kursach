@@ -1,0 +1,19 @@
+﻿
+<div align="center"><h1>Последние статьи</h1></div>
+
+
+<div class="row mt-5 mb-2">
+    @{
+        foreach (var theme in Model.themes)
+        {
+            <div class="col-lg-4">
+                <img class="img-thumbnail" src="@theme.img" alt="@theme.name" style="width:650px; height:400px;" />
+                <h5>@theme.name</h5>
+                <p>@theme.shortDescription</p>
+                <p>@theme.level.Name</p>
+                <p><a class="btn btn-warning" href="#">Читать</a></p>
+            </div>
+        }
+
+    }
+</div>

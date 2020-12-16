@@ -8,18 +8,18 @@ using System.Threading.Tasks;
 
 namespace Kurs.Controllers
 {
-    public class ThemesController : Controller
+    public class HomeController : Controller
     {
         private readonly IThemes iThemes;
         private readonly IThemsLevel iThemesLevel;
 
-        public ThemesController(IThemes themes, IThemsLevel themsLevel)
+        public HomeController(IThemes themes, IThemsLevel themsLevel)
         {
             iThemes = themes;
             iThemesLevel = themsLevel;
         }
 
-        public ViewResult List()
+        public ViewResult Index()
         {
             ThemesListViewModel themesList = new ThemesListViewModel();
             themesList.themes = iThemes.Themes;

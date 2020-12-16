@@ -160,6 +160,8 @@ C:\Users\ivans\source\repos\Kurs\Kurs\bin\Debug\netcoreapp3.1\runtimes\win-x64\n
 C:\Users\ivans\source\repos\Kurs\Kurs\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\ivans\source\repos\Kurs\Kurs\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\ivans\source\repos\Kurs\Kurs\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ivans\source\repos\Kurs\Kurs\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ivans\source\repos\Kurs\Kurs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ivans\source\repos\Kurs\Kurs\obj\Debug\netcoreapp3.1\Kurs.csproj.CoreCompileInputs.cache
 C:\Users\ivans\source\repos\Kurs\Kurs\obj\Debug\netcoreapp3.1\Kurs.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Admin\Desktop\Kursach\Kurs\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -326,3 +328,6 @@ C:\Users\Admin\Desktop\Kursach\Kurs\obj\Debug\netcoreapp3.1\Kurs.csproj.CopyComp
 C:\Users\Admin\Desktop\Kursach\Kurs\obj\Debug\netcoreapp3.1\Kurs.dll
 C:\Users\Admin\Desktop\Kursach\Kurs\obj\Debug\netcoreapp3.1\Kurs.pdb
 C:\Users\Admin\Desktop\Kursach\Kurs\obj\Debug\netcoreapp3.1\Kurs.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Kursach\Kurs\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Admin\Desktop\Kursach\Kurs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ivans\source\repos\Kurs\Kurs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs

@@ -13,7 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\_ViewImports.cshtml"
+#line 1 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\_ViewImports.cshtml"
 using Kurs.ViewModels;
 
 #line default
@@ -28,7 +28,7 @@ using Kurs.ViewModels;
         {
             WriteLiteral("\r\n<div align=\"center\"><h1>Последние новости и недавние статьи</h1></div>\r\n\r\n\r\n<div  class=\"row mt-5 mb-2\">\r\n");
 #nullable restore
-#line 6 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\Themes\List.cshtml"
+#line 6 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\Themes\List.cshtml"
       
         foreach (var theme in Model.themes)
         {
@@ -57,7 +57,7 @@ WriteAttributeValue("", 273, theme.name, 273, 11, false);
             EndWriteAttribute();
             WriteLiteral(" style=\"width:650px; height:400px;\"/>\r\n                <h5>");
 #nullable restore
-#line 11 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\Themes\List.cshtml"
+#line 11 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\Themes\List.cshtml"
                Write(theme.name);
 
 #line default
@@ -65,7 +65,7 @@ WriteAttributeValue("", 273, theme.name, 273, 11, false);
 #nullable disable
             WriteLiteral("</h5>\r\n                <p>");
 #nullable restore
-#line 12 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\Themes\List.cshtml"
+#line 12 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\Themes\List.cshtml"
               Write(theme.shortDescription);
 
 #line default
@@ -73,7 +73,7 @@ WriteAttributeValue("", 273, theme.name, 273, 11, false);
 #nullable disable
             WriteLiteral("</p>\r\n                <p>");
 #nullable restore
-#line 13 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\Themes\List.cshtml"
+#line 13 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\Themes\List.cshtml"
               Write(theme.level);
 
 #line default
@@ -81,7 +81,7 @@ WriteAttributeValue("", 273, theme.name, 273, 11, false);
 #nullable disable
             WriteLiteral("</p>\r\n                <p><a class=\"btn btn-warning\" href=\"#\">Читать</a></p>\r\n            </div>\r\n");
 #nullable restore
-#line 16 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\Themes\List.cshtml"
+#line 16 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\Themes\List.cshtml"
         }
         
     

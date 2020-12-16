@@ -1,4 +1,7 @@
 ﻿using Kurs.Data.Interfaces;
+using Kurs.Data.Models;
+using Kurs.Data.Repository;
+using Kurs.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,9 +20,10 @@ namespace Kurs.Controllers
             iThemes = themes;
             iThemesLevel = themsLevel;
         }
-        public ViewResult Index()
-        {
-            return View("/Views/Themes/Theme.cshtml");
+        public ViewResult Index(int id)
+        {   
+            Theme theme = iThemes.getObjectTheme(id);
+            return View("/Views/Themes/Theme.cshtml",theme);
         }
     }
 }

@@ -33,14 +33,40 @@
 
         .img-thumbnail {
             padding: .05rem;
-            background-color: #ffffff;
-            border: 1px solid #ffffff;
+            background-color: #000000;
+            border: 1px solid #000000;
             border-radius: .95rem;
             max-width: 100%;
             height: auto;
         }
 
+        .col-lg-4__text {
+            margin-top: 5px;
+            border: 1px solid #000000;
+            border-radius: .95rem;
+            background-color: #000000a3;
+            text-align: center;
+        }
+        .col-lg-4 {
+            margin-top: 40px;
+        }
 
+        .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+            margin-top: 10px;
+            margin-bottom: .5rem;
+            margin-left: 10px;
+            font-weight: 700;
+            line-height: 0.7;
+        }
+
+        .btn-warning {
+            color: #000;
+            background-color: #ffc10752;
+            border-color: #ff76008c;
+            border-width: thick;
+            border-radius: .80rem;
+            width: 300px;
+        }
 
     </style>
 
@@ -78,22 +104,6 @@
         </div>
     </header>
 
-    <hr />
-    <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Немного о самом Blender</h1>
-                <p class="lead text-muted">
-                    Blender — профессиональное cвободное и открытое программное обеспечение для создания трёхмерной компьютерной графики,
-                    включающее в себя средства моделирования, скульптинга, анимации, симуляции, рендеринга,
-                    постобработки и монтажа видео со звуком, компоновки с помощью «узлов» (Node Compositing),
-                    а также создания 2D-анимаций. В настоящее время пользуется большой популярностью среди бесплатных 3D-редакторов
-                    в связи с его быстрым стабильным развитием и технической поддержкой.
-                </p>
-            </div>
-        </div>
-    </section>
-    <hr />
 
     <div>
         @RenderBody()

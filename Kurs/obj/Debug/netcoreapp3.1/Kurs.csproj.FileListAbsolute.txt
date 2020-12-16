@@ -328,3 +328,5 @@ C:\Users\Admin\Desktop\Kursach\Kurs\obj\Debug\netcoreapp3.1\Kurs.csproj.CopyComp
 C:\Users\Admin\Desktop\Kursach\Kurs\obj\Debug\netcoreapp3.1\Kurs.dll
 C:\Users\Admin\Desktop\Kursach\Kurs\obj\Debug\netcoreapp3.1\Kurs.pdb
 C:\Users\Admin\Desktop\Kursach\Kurs\obj\Debug\netcoreapp3.1\Kurs.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Kursach\Kurs\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Admin\Desktop\Kursach\Kurs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

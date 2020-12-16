@@ -9253,19 +9253,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ivans\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Kursach\\Kurs\\Kurs.csproj",
+      "projectUniqueName": "C:\\Users\\ivans\\source\\repos\\Kurs\\Kurs\\Kurs.csproj",
       "projectName": "Kurs",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Kursach\\Kurs\\Kurs.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Kursach\\Kurs\\obj\\",
+      "projectPath": "C:\\Users\\ivans\\source\\repos\\Kurs\\Kurs\\Kurs.csproj",
+      "packagesPath": "C:\\Users\\ivans\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivans\\source\\repos\\Kurs\\Kurs\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivans\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9277,7 +9281,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -9289,7 +9292,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "EntityFramework": {
             "target": "Package",
@@ -9344,7 +9346,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   },

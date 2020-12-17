@@ -11,12 +11,11 @@
                 <hr />
                 <img src="@Model.img" style="width:650px; height:400px;">
                 <hr />
-                <span class="text--theme">
-                    @Html.Raw(@Model.longDescription)
-                </span>
             </div>
-            <span class="text--theme">
-                @Model.longDescription
+            <span class="text--pre">
+                <pre>
+                    @Html.Raw(@Model.longDescription)
+                </pre>
             </span>
         </div>
     </section>

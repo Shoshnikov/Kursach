@@ -89,3 +89,12 @@ a {
 .text--theme{
     margin-top: 25px;
 }
+
+.text--pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+    font-size: 23px;
+    font-family: inherit;
+}

@@ -20,7 +20,7 @@ using Kurs.ViewModels;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Admin\Desktop\Kursach\Kurs\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\ivans\source\repos\Kurs\Kurs\Views\_ViewImports.cshtml"
 using Kurs.Data.Models;
 
 #line default

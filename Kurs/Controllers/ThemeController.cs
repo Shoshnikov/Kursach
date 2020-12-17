@@ -24,7 +24,6 @@ namespace Kurs.Controllers
         }
         public ViewResult Index(int id)
         {
-            
             Theme theme = iThemes.getObjectTheme(id); 
             return View("/Views/Themes/Theme.cshtml",theme);
         }

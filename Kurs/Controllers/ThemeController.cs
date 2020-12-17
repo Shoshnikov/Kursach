@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Helpers;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 namespace Kurs.Controllers
 {
@@ -22,8 +23,9 @@ namespace Kurs.Controllers
             iThemesLevel = themsLevel;
         }
         public ViewResult Index(int id)
-        {   
-            Theme theme = iThemes.getObjectTheme(id);
+        {
+            
+            Theme theme = iThemes.getObjectTheme(id); 
             return View("/Views/Themes/Theme.cshtml",theme);
         }
     }

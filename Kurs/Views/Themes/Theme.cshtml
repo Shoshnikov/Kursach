@@ -1,20 +1,28 @@
 ﻿@model Theme
 <div>
-    <div>
-        <h1>@Model.name</h1>
-    </div>
+   
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">@Model.name</h1>
+                <div>
+                    @Model.shortDescription
+                </div>
+                <hr />
+                <img src="@Model.img" style="width:650px; height:400px;">
+                <hr />
+                <span class="text--theme">
+                    @Model.longDescription
+                </span>
+            </div>
+        </div>
+    </section>
+
+    
 
     <div>
-        <img src="@Model.img"/>
-    </div>
 
-    <span>
-        @Model.longDescription
-    </span>
-
-    <div>
-
-        <a class="btn btn-danger" href="/Home">Сосать огромный хуй</a>
+        <a class="btn btn-danger" href="/Home">Вернуться на главную страницу</a>
     </div>
 
 </div>

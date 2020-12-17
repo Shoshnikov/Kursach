@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Kurs.Data.Mocks
 {
-    public class MockThemes : IThemes
+    public class MockThemes
     {
         private readonly IThemsLevel _themsLevel = new MockLevel();
         public IEnumerable<Theme> Themes 

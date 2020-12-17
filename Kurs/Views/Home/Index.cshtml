@@ -1,10 +1,33 @@
 ﻿
+
+<hr />
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Немного о самом Blender</h1>
+            <p class="lead text-muted">
+                Blender — профессиональное cвободное и открытое программное обеспечение для создания трёхмерной компьютерной графики,
+                включающее в себя средства моделирования, скульптинга, анимации, симуляции, рендеринга,
+                постобработки и монтажа видео со звуком, компоновки с помощью «узлов» (Node Compositing),
+                а также создания 2D-анимаций. В настоящее время пользуется большой популярностью среди бесплатных 3D-редакторов
+                в связи с его быстрым стабильным развитием и технической поддержкой.
+            </p>
+        </div>
+    </div>
+</section>
+<hr />
+
 <div align="center"><h1>Последние статьи</h1></div>
 
 
 <div class="row mt-5 mb-2">
+    <a class="btn btn-danger" href="/Home/MasterThemes?levelID=3">Ненавижу блять </a>
+    <a class="btn btn-danger" href="/Home/MasterThemes?levelID=2">Волков гнида пидор лох убью его нахуй</a>
+    <a class="btn btn-danger" href="/Home/MasterThemes?levelID=1">Выебать труп и сожрать его</a>
+    <a class="btn btn-danger" href="/Home/MasterThemes?levelID=4">Изнасиловать и выколоть глаза детям</a>
+
     @{
-        foreach (var theme in Model.themes)
+        foreach (Theme theme in Model.themes)
         {
             <div class="col-lg-4">
                 <img class="img-thumbnail" src="@theme.img" alt="@theme.name" style="width:650px; height:400px;" />
@@ -14,6 +37,5 @@
                 <p><a class="btn btn-warning" href="Theme/Index?id=@theme.id">Читать</a></p>
             </div>
         }
-
     }
 </div>

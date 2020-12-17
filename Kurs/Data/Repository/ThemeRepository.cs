@@ -20,5 +20,7 @@ namespace Kurs.Data.Repository
         public IEnumerable<Theme> Themes => content.Theme.Include(c => c.level);
 
         public Theme getObjectTheme(int id) => content.Theme.FirstOrDefault(p => p.id == id);
+
+        public IEnumerable<Theme> Master => content.Theme.Include(c => c.levelID == 3);
     }
 }

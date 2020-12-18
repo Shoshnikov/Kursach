@@ -19,21 +19,18 @@
 
 
 <div class="row mt-5 mb-2">
-    <a class="btn btn-danger" href="/Home/MasterThemes?levelID=3">Ненавижу блять </a>
-    <a class="btn btn-danger" href="/Home/MasterThemes?levelID=2">Волков гнида пидор лох убью его нахуй</a>
-    <a class="btn btn-danger" href="/Home/MasterThemes?levelID=1">Выебать труп и сожрать его</a>
-    <a class="btn btn-danger" href="/Home/MasterThemes?levelID=4">Изнасиловать и выколоть глаза детям</a>
 
+    
     @{
         foreach (Theme theme in Model.themes)
         {
             <div class="col-lg-4">
                 <img class="img-thumbnail" src="@theme.img" alt="@theme.name" style="width:650px; height:400px;" />
                 <div class="col-lg-4__text">
-                    <h5 class="text--card" >@theme.name</h5>
-                    <p  >@theme.shortDescription</p>
-                    <p  class="text--italic" >@theme.level.Name</p>
-                <p><a class="btn btn-warning" href="~/Theme/Index?id=@theme.id">Читать</a></p>
+                    <h5 class="text--card">@theme.name</h5>
+                    <p>@theme.shortDescription</p>
+                    <p class="text--italic">@theme.level.Name</p>
+                    <p><a class="btn btn-warning" href="~/Theme/Index?id=@theme.id">Читать</a></p>
                 </div>
             </div>
         }

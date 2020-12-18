@@ -12,12 +12,12 @@
                 <img src="@Model.img" style="width:650px; height:400px;">
                 <hr />
             </div>
-            <span class="text--pre">
-                <pre>
-                    @Html.Raw(@Model.longDescription)
-                </pre>
-            </span>
         </div>
+        <span class="container-xl">
+            <div class="text--div">
+               @Html.Raw(@Model.longDescription)
+            </div>
+        </span>
     </section>
 
     

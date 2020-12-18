@@ -61,6 +61,8 @@ a {
     border-radius: 0.8rem;
     width: 300px;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .btn-danger {
@@ -69,6 +71,17 @@ a {
     border-color: #000000;
     border-width: 2.8px;
     border-radius: 0.8rem;
+    margin-left: 825px;
+}
+
+.btn--choice {
+    border-bottom: 2px solid #ffffff;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .mb-2 {
@@ -77,9 +90,9 @@ a {
     margin-left: 25px;
 }
 
-.text--italic{
+.text--italic {
     font-style: italic;
-
+    text-transform: uppercase;
 }
 
 .text--card{
@@ -97,4 +110,30 @@ a {
     overflow: auto;
     font-size: 23px;
     font-family: inherit;
+    text-align: justify;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+.text--div {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #000000c7;
+    border-radius: .85rem;
+
+}
+
+.theme--pic {
+    vertical-align: middle;
+    width: 605px;
+    height: auto;
+    border: black;
+    border-radius: .85rem;
+}
+
+.wolf-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: -20px;
 }
